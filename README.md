@@ -47,18 +47,18 @@ First, clone the repo to your local machine:
 ```bash
 git clone https://github.com/Vedant-Santosh-Deshpande/financial-dashboard-react-data-analysis-.git
 
-Then navigate into the project folder: cd financial-dashboard-react-data-analysis-
-Navigate to the backend folder: cd backend
-Install backend dependencies: npm install
-Create a .env file and following into it:
+Then navigate into the project folder:--->>> cd financial-dashboard-react-data-analysis-
+Navigate to the backend folder:--->>> cd backend
+Install backend dependencies:--->>> npm install
+--->>>Create a .env file and following into it:
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/finance_dashboard
 JWT_SECRET=yourSuperSecretKeyHere
 
 
-Start the backend server: npm start
+Start the backend server:--->>> node server.mjs
 The backend server will run at: http://localhost:5000
 #Setup the Frontend:
-npm install
-Start the Vite development server: npm run dev
-The frontend will run by default at: http://localhost:5173
+--->>>npm install
+Start the Vite development server:--->>> npm run dev
+The frontend will run by default at:--->>> http://localhost:5173
